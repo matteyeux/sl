@@ -1,0 +1,11 @@
+Package: com.matteyeux.sl
+Name: sl
+Depends: 
+Architecture: iphoneos-arm
+Description: An awesome tool of some sort!!
+Maintainer: matteyeux <mathieu.hautebas@gmail.com>
+Author: matteyeux <mathieu.hautebas@gmail.com>
+Section: System
+Tag: role::hacker
+Version: 0.0.1-1+debug
+Installed-Size: 144

@@ -1,13 +1,7 @@
-#==========================================
-#    Makefile: makefile for sl 5.1
-#	Copyright 1993, 1998, 2014
-#                 Toyoda Masashi
-#		  (mtoyoda@acm.org)
-#	Last Modified: 2014/03/31
-#==========================================
-
-CC=gcc
+include $(THEOS)/makefiles/common.mk
+LDFLAGS=-lncurses
 CFLAGS=-O
+TOOL_NAME = sl
+sl_FILES = sl.c
 
-sl: sl.c sl.h
-	$(CC) $(CFLAGS) -o sl sl.c -lncurses
+include $(THEOS_MAKE_PATH)/tool.mk
